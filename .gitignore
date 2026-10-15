@@ -1,0 +1,40 @@
+# Environments & Secrets
+.env
+.env.*
+*.env
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache & bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Testing artifacts
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Archives & Temporary files
+*.zip
+*.tar.gz
+*.rar
+submission.zip
+scratch/
+test_scratch*.py
+*.log
+*.tmp
+
+# Editor & IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+Desktop.ini
